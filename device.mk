@@ -283,10 +283,6 @@ PRODUCT_PACKAGES += \
 # QRNGD
 PRODUCT_PACKAGES += qrngd
 
-# Add script to remove apps from update
-PRODUCT_COPY_FILES += \
-	device/lge/mako/27-remove.sh:system/addon.d/27-remove.sh
-
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # This is the mako-specific audio package
