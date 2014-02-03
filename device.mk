@@ -280,6 +280,12 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxQcelp13Enc
 
+# Default ringtone
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=Themos.ogg \
+    ro.config.notification_sound=Tejat.ogg \
+    ro.config.alarm_alert=Hassium.ogg
+
 # QRNGD
 PRODUCT_PACKAGES += qrngd
 
